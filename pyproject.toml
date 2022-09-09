@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mlops-openfoodfacts"
+version = "0.1.0"
+description = ""
+authors = ["Rinat Gareev <aldvinaldvin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.4"
+pyarrow = "^9.0.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.15.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
