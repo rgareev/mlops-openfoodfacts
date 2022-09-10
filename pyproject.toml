@@ -5,9 +5,12 @@ description = ""
 authors = ["Rinat Gareev <aldvinaldvin@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.12"
 pandas = "^1.4.4"
 pyarrow = "^9.0.0"
+matplotlib = "^3.5.3"
+scipy = "^1.9.1"
+scikit-learn = "^1.1.2"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.15.2"
