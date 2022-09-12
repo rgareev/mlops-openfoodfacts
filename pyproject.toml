@@ -13,6 +13,7 @@ scipy = "^1.9.1"
 scikit-learn = "^1.1.2"
 ray = {extras = ["air"], version = "^2.0.0"}
 tqdm = "^4.64.1"
+mlflow-skinny = "^1.28.0"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.15.2"
