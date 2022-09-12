@@ -170,6 +170,9 @@ def run_pipeline(
         experiment_name: str,
         output_path_base: str,
         workflow_id: Optional[str] = None):
+
+    # ray.init(address='auto')
+
     model_version_node = build_pipeline(
         train_data_path, test_data_path, experiment_name, output_path_base)
 

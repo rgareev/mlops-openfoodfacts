@@ -15,6 +15,7 @@ ray = {extras = ["air"], version = "^2.0.0"}
 tqdm = "^4.64.1"
 mlflow-skinny = "^1.28.0"
 fire = "^0.4.0"
+boto3 = "^1.24.70"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.15.2"
